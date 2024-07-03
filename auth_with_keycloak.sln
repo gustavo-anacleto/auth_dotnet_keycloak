@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth_with_keycloak", "auth_with_keycloak\auth_with_keycloak.csproj", "{45C477A4-4CC2-48F9-A2ED-1C0E53BBE042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45C477A4-4CC2-48F9-A2ED-1C0E53BBE042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C477A4-4CC2-48F9-A2ED-1C0E53BBE042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C477A4-4CC2-48F9-A2ED-1C0E53BBE042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C477A4-4CC2-48F9-A2ED-1C0E53BBE042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4DE2E67-51E6-43E6-9A31-9079BB11288E}
+	EndGlobalSection
+EndGlobal

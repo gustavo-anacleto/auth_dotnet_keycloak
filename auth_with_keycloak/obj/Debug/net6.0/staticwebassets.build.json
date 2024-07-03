@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Nwpznxsncc7vMsu1ruT4UZ1D10eGbM0g6qdTFmboanM=",
+  "Source": "auth_with_keycloak",
+  "BasePath": "_content/auth_with_keycloak",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
