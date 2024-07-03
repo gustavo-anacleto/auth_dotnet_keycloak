@@ -17,7 +17,7 @@ Wait image until image configure
 
 When it finish access **localhost:8080** in your brwoser
 
-Use "admin" for username and password fields
+Use **admin** for username and password fields
 
 ![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/392eb6de-fbea-4fc6-ba16-8415174640d8)
 
