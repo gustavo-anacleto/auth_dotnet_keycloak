@@ -24,7 +24,7 @@ Use ***admin*** for username and password fields
 After enter, create a new **realm**
 ![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3681b0f4-4788-45db-92a5-7d03ab0b08ac)
 
-
+Now you'll need create a client
 
 
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
