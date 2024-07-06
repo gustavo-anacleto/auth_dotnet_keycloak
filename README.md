@@ -1,5 +1,42 @@
 # How to connect keycloak with .NET application
 
-## Versions 
+## Prerequirements 
+- Docker Desktop
 - .NET 6
+- Visual Studio (or other IDE of your preference)
+## Versions
 - Keycloak 20.0.2
+- .NET 6
+
+## Configuration
+First it necessary to configure the keycloak 
+
+To configure Keycloak run this command **docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:20.0.2 start-dev**
+
+Wait image until image configure
+
+When it finish access **localhost:8080** in your brwoser
+
+Use ***admin*** for username and password fields
+
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/392eb6de-fbea-4fc6-ba16-8415174640d8)
+
+After enter, create a new **realm**
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3681b0f4-4788-45db-92a5-7d03ab0b08ac)
+
+Now you'll need create a client
+In second step mark the option **Client authentication**
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3e148596-1884-4ae1-9df1-debba89d978a)
+
+After this, go to Client Scopes tab, create a client scope
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3e68f738-f050-4c49-b304-86091b69c3fc)
+
+
+
+
+
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+dotnet add package IdentityModel
+dotnet add package IdentityModel.AspNetCore.OAuth2Introspection
+
