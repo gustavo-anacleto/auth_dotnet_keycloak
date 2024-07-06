@@ -25,6 +25,15 @@ After enter, create a new **realm**
 ![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3681b0f4-4788-45db-92a5-7d03ab0b08ac)
 
 Now you'll need create a client
+In second step mark the option **Client authentication**
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3e148596-1884-4ae1-9df1-debba89d978a)
+
+After this, go to Client Scopes tab, create a client scope
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/3e68f738-f050-4c49-b304-86091b69c3fc)
+
+
+
+
 
 
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
