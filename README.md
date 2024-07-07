@@ -65,8 +65,19 @@ To create use the command **dotnet new webapi -n NAME_YOUR_PROJECT**
 Enter in your project with the command **cd NAME_YOUR_PROJECT**
 
 Install the dependencies
-**dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
-dotnet add package IdentityModel
-dotnet add package IdentityModel.AspNetCore.OAuth2Introspection**
+**dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer**
+**dotnet add package IdentityModel**
+**dotnet add package IdentityModel.AspNetCore.OAuth2Introspection**
+
+In your appsettings.json paste the block bellow
+```
+  "Keycloak": {
+    "Authority": "http://localhost:8080/realms/YOUR_REALM_NAME",
+    "ClientId": "YOUR_CLIENT_NAME"
+  }
+```
+
+Now just copy the configuration of Program.cs of this repository
+Don't forget to 
 
 
