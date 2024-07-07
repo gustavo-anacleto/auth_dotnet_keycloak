@@ -66,7 +66,9 @@ Enter in your project with the command **cd NAME_YOUR_PROJECT**
 
 Install the dependencies
 **dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer**
+
 **dotnet add package IdentityModel**
+
 **dotnet add package IdentityModel.AspNetCore.OAuth2Introspection**
 
 In your appsettings.json paste the block bellow
