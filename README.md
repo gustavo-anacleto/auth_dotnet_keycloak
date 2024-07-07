@@ -65,6 +65,7 @@ To create use the command **dotnet new webapi -n NAME_YOUR_PROJECT**
 Enter in your project with the command **cd NAME_YOUR_PROJECT**
 
 Install the dependencies
+
 **dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer**
 
 **dotnet add package IdentityModel**
@@ -80,6 +81,6 @@ In your appsettings.json paste the block bellow
 ```
 
 Now just copy the configuration of Program.cs of this repository
-Don't forget to 
+Don't forget to add the **[Authorize]** decorator on the endpoints that you want to have the authentication
 
 
