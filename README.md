@@ -81,6 +81,7 @@ In your appsettings.json paste the block bellow
 ```
 
 Now just copy the configuration of Program.cs of this repository
+
 Don't forget to add the **[Authorize]** decorator on the endpoints that you want to have the authentication
 
 ---
