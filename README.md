@@ -83,4 +83,26 @@ In your appsettings.json paste the block bellow
 Now just copy the configuration of Program.cs of this repository
 Don't forget to add the **[Authorize]** decorator on the endpoints that you want to have the authentication
 
+---
+# Test your project
+
+Run you project with command **dotnet run**
+
+If you test your endpoint you'll recive the 401(Unauthorized) code
+
+Because you need to send a token 
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/b7275c63-ad0e-48bb-91e0-68152bafe80d)
+
+So you need to autenticate in keycloak service in url **http://localhost:8080/YOUR_REALM_NAME/gustavo/protocol/openid-connect/token**
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/8876f0d2-7e5d-4561-90c1-7ff8bc90bd0c)
+
+Now just copy the **access_token**
+
+Paste in Authorization section as a Bearer Token and send the request again
+
+It's to retrieve the informations successfully 
+
+![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/c3b65f19-b697-483b-b326-bb7075226e40)
+
+
 
