@@ -54,18 +54,19 @@ To finish create a user to make login in the keycloak
 Go to tab credential and set a password, you'll use it afterwards
 ![image](https://github.com/gustaVASSIO/auth_dotnet_keycloak/assets/104386638/e93bd2dc-f665-4278-9378-74598b1dec51)
 
+---
 
+# .NET project
 
+First create your a webApi project with .net 6
 
+To create use the command **dotnet new webapi -n NAME_YOUR_PROJECT**
 
+Enter in your project with the command **cd NAME_YOUR_PROJECT**
 
-
-
-
-
-
-
-dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+Install the dependencies
+**dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
 dotnet add package IdentityModel
-dotnet add package IdentityModel.AspNetCore.OAuth2Introspection
+dotnet add package IdentityModel.AspNetCore.OAuth2Introspection**
+
 
